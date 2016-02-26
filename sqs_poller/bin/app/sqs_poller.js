@@ -28,7 +28,7 @@
   exports.getScheme = function () {
     var scheme = new Scheme("SQS Poller");
 
-    scheme.description = "Streams events containing a random number.";
+    scheme.description = "Creates events from SQS message contents";
     scheme.useExternalValidation = true;
     scheme.useSingleInstance = false;
 
